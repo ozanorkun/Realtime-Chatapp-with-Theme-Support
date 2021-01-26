@@ -1,0 +1,51 @@
+label {
+  font-size: 0.83em;
+  font-weight: bold;
+  color: white;
+  padding-right: 10px;
+  margin: auto 0 auto auto;
+}
+
+.infoBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background: #2979ff;*/
+  border-radius: 4px 4px 0 0;
+  height: 60px;
+  width: 100%;
+}
+
+.leftInnerContainer {
+  flex: 0.5;
+  display: flex;
+  align-items: center;
+  margin-left: 3%;
+  color: white;
+}
+
+.rightInnerContainer {
+  display: flex;
+  flex: 0.5;
+  justify-content: flex-end;
+  margin-right: 3%;
+}
+
+.onlineIcon {
+  margin-right: 1%;
+}
+
+button {
+  font-size: 14px;
+  border-radius: 1px;
+  cursor: pointer;
+  outline: none;
+  transition: 0.1s all;
+  margin-left: 5px;
+  border: solid rgb(199, 201, 204);
+}
+
+button:active {
+  transform: scale(0.97);
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
